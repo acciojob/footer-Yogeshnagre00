@@ -1,1 +1,42 @@
 /* your code here */
+/* your code here */
+.content{
+    background-color: black;
+    color: white;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo-details .logo_name{
+    font-size: 30px;
+    font-weight: 300;
+}
+.media-icons{
+    position: relative;
+    right:30px;
+}
+.link-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+.link-boxes a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+.link-boxes a:hover{
+    border-bottom:2px solid white;
+}
+.bottom-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
