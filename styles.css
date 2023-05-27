@@ -1,42 +1,38 @@
-/* your code here */
-/* your code here */
-.content{
-    background-color: black;
-    color: white;
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
-.top{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.logo-details .logo_name{
-    font-size: 30px;
-    font-weight: 300;
-}
-.media-icons{
-    position: relative;
-    right:30px;
-}
-.link-boxes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 40px;
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
-.link-boxes a{
-    text-decoration: none;
-    color:white;
-    font-size: 25px;
+
+.row {
+  margin-bottom: 10px;
 }
-.link-boxes a:hover{
-    border-bottom:2px solid white;
+
+.col-sm-6 {
+  float: left;
+  width: 50%;
 }
-.bottom-details{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    font-size: 20px;
+
+@media (max-width: 768px) {
+  .col-sm-6 {
+    float: none;
+    width: 100%;
+  }
+}
+
+.social-media {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media li {
+  float: left;
+  margin-right: 10px;
 }
