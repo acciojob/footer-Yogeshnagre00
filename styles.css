@@ -1,52 +1,40 @@
 /* your code here */
-.content{
-	background:black;
-	padding:20px 20px;
-}
-.logo_name{
+footer{
+	background-color:black;
 	color:white;
-	text-weight:bolder;
-	font-size:30px
+	box-sizing:border-box;
 }
-.top{
-	padding-left:20px;
+.logo-detail, .top, .media-icons{
 	display:flex;
-	align:center;
-	
-	gap:250px;
-	padding-bottom:30px;
+	justify-content:flex-start;
 }
 .media-icons{
-	display:flex;
-
-	gap:10px;
+	justify-content:flex-end;
 }
-.media-icons img{
-	width:30px;
-	gap:1px;
+.box{
+	max-width:22%;
 }
-.link h3{
-	color:white;
-}
-.link{
-	display:flex;
-	flex-flow: wrap;
-	gap:10px;
-	justify-content:space-evenly;
-	padding-bottom:20px;
-	
-}
+ 
 .link-boxes{
 	display:flex;
-	flex-flow:column wrap;
-	gap:10px;
-}
-.link-boxes a{
-	text-decoration:none;
-	color:#6D6D6D;
+	flex-direction:row;
 }
 .bottom-details{
-	background-color:#2C303A;
-	padding:20px 20px;
+	background-color:#2c303a;
+	height:30px;
+	display:flex;
+}
+.copy-right, .policy-terms{
+	width:40%;
+	margin:5px;
+	margin-left:10px;
+/* 	align-item:center; */
+}
+.policy-terms{
+	width:50%;
+	justify-content:flex-end;
+}
+a:link{
+	text-decoration:none;
 	color:white;
 }
